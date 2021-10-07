@@ -1,0 +1,119 @@
+body{
+    background-color: lightgray;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child-product {
+    width: 65%;
+    float: left;
+    padding: 20px;
+  
+}
+.float-child-cart {
+    width: 35%;
+    float: left;
+    padding: 20px;
+  
+} 
+.search-item{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+
+.product-img{
+    width: 100%;
+    height: 100px;
+    border: none;
+}
+#productlist{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+   
+}
+#productBtnId{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+  
+   
+}
+.cartedProduct{
+    margin-bottom: 5px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(196, 196, 185);
+   
+    align-items: center;
+    box-shadow:  5px 5px lightgray;
+ 
+    
+
+}
+
+.cartImg{
+    width:60px ;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.img-container{
+
+    position: relative;
+  
+
+}
+.product-count {
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    font-size: 12px;
+    background-color: blue;
+    color:white;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    
+  }
+  .calculation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payBtn{
+    width: 100%;
+    height: 60px;
+    background-color: rebeccapurple;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+}
+.cartedProduct{
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    margin-top: 40px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+
+}
+.btn{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddCart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/3fe655f02b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="float-container">
+        <div class="product-list float-child-product">
+            <input class="search-item form-control" type="text" placeholder="search item...">
+           
+            <div id="productlist">
+
+            </div>
+            <div class="footer">
+                <div>
+                    Dhanmondi | Registar 1 | New Sale
+                </div>
+                <div>
+                    <button class="btn">Options</button>
+                    <button class="btn">New Sales</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="cart-list float-child-cart">
+            <i class="fas fa-user"></i>
+            <span><strong>Add Customer</strong></span>
+            <div id="cartItem" >
+
+            </div>
+            <div style="padding-top: 37em;">
+                <h3 class="calculation">Discount(0%) <span>BDT <span >0.00</span></span></h3>
+                <h3 class="calculation">SubTotal <span>BDT <span id="subtotal">0.00</span></span></h3>
+                <h3 class="calculation">Tax(0%) <span>BDT <span >0.00</span></span></h3>
+                <h3 class="calculation">Total <span>BDT <span >0.00</span></span></h3>              
+            </div>
+            <h2 class="payBtn calculation"><strong>PAY</strong><span>BDT:  <span id="totalPayment">0.00</span></span></h2>
+        
+            
+           
+            
+
+        </div>
+        
+           
+        
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>
